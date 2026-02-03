@@ -46,7 +46,7 @@ section{
 }
 
 .header{
-  position: fixed;
+  position: sticky;
   top:0;
   left:0;
   width: 100%;
@@ -79,8 +79,8 @@ section{
   color: var(--main-color);
 
 }
-.navbar a:hover, .navbar a.active{
-  color: var(--main-color);
+.navbar a:hover, .navbar a.active, .navbar-brand{
+  color: var(--main-color) !important;
 
 }
 
