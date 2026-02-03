@@ -513,3 +513,8 @@ footer{
 input:focus ,textarea:focus{
   border:1px solid #00f7ff;
 }
+
+.outline-look {
+  color: transparent;
+  -webkit-text-stroke: 1.5px #fff;
+}
