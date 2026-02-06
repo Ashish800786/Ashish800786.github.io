@@ -423,15 +423,23 @@ color: var(--second-bg-color);
 }
 
 .contact form .input-box input,
-.contact form textarea{
+.contact form textarea,.form-control{
   width: 100%;
   padding: 1.2rem;
   font-size: 1.6rem;
-  color: var(--text-color);
+  color: var(--text-color) !important;
   background: var(--bg-color);
   border-radius: .8rem;
   margin:.7rem 0;
 
+}
+
+.form-control::placeholder {
+  color: #adb5bd;   /* Bootstrap gray */
+}
+.form-control:focus {
+   color: var(--text-color) !important;
+  background: var(--bg-color);
 }
 
 .contact form .input-box input{
